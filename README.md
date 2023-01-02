@@ -46,3 +46,24 @@ sh slurm_train.sh <num_gpu> <port> <partition>
 # or use torch.distributed.launch
 # sh train.sh <num_gpu> <port>
 ```
+
+## Acknowledgement
+
+We reproduce our work based on **U2PL**.
+- U2PL: https://github.com/Haochen-Wang409/U2PL
+
+Sincere gratitude to their work.
+
+## Citation
+```bibtex
+@inproceedings{jin2022semi,
+    title={Semi-Supervised Semantic Segmentation via Gentle Teaching Assistant},
+    author={Jin, Ying and Wang, Jiaqi and Lin, Dahua},
+    booktitle={Advances in Neural Information Processing Systems},
+    year={2022}
+}
+```
+
+## Contact
+
+- Ying Jin, sherryying003@gmail.com
